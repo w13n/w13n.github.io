@@ -1,8 +1,7 @@
-<style>
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url(/fonts/josefin-sans.woff2) format('woff2');
+  src: url(https://w13n.com/fonts/josefin-sans.woff2) format('woff2');
 }
 
 body{
@@ -27,4 +26,3 @@ p1 {
   font-size: 2em;
   font-weight: 500;
   font-family: "Josefin Sans", "Trebuchet", sans-serif;}
-</style>
