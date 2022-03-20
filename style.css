@@ -1,13 +1,13 @@
 
 @font-face {
   font-family: 'Josefin Sans';
-  src: url(https://w13n.com/fonts/josefin-sans.woff2) format('woff2');
+  src: url(/fonts/josefin-sans.woff2) format('woff2');
 }
 
 body{
-  background-color: #000000;
-  
+  background-color: #000000; 
 }
+
 h1.title {
   padding: .5em;
   background: #000000;
@@ -18,11 +18,13 @@ h1.title {
   border-top: .2em inset #ffffff;
   font-size: 3em;
   font-weight: 500;
-  font-family: "Josefin Sans", "Trebuchet", sans-serif;}
+  font-family: "Josefin Sans", "Trebuchet", sans-serif;
+}
 
 p1 {
   border-radius: 1em 1em;
   color: #ff6319;
   font-size: 2em;
   font-weight: 500;
-  font-family: "Josefin Sans", "Trebuchet", sans-serif;}
+  font-family: "Josefin Sans", "Trebuchet", sans-serif;
+}
