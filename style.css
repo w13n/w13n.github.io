@@ -10,13 +10,17 @@ body{
 
 }
 
+a{
+  text-decoration: none;
+}
+
 div.main{
-  background: #2e2e2e;
+  background: rgba(46, 46, 46, .5);
   border-radius: 2em 2em;
   padding: 0em;
   text-align: center;
-  border-bottom: .5em outset #2e2e2e;
-  border-top: .5em inset #2e2e2e;
+  border-bottom: .5em outset rgba(46, 46, 46, .5);
+  border-top: .5em inset rgba(46, 46, 46, .5);
   width: 40em;
   margin: auto;
 }
