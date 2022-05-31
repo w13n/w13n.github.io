@@ -38,7 +38,7 @@ div.main{
 
 div.button{
   background: #ff6319;
-  border-radius: 1em 1em;
+  border-radius: .5em .5em;
   padding: .5em;
   text-align: center;
   width: 20em;
