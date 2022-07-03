@@ -61,9 +61,9 @@ div.button:hover{
   transform: scale(1.1);
 }
 
-@media screen and (max-width: 34em) {
+@media screen and (max-width: 38em) {
   div.button {
-    width: 90%;
+    width: 80%;
   }
 }
 
