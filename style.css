@@ -36,6 +36,10 @@ img.pfp {
   padding: .5em;
 }
 
+a{
+  text-decoration: none;
+}
+
 .button{
   background: #ff6319;
   border-radius: .5em;
