@@ -15,33 +15,30 @@ body{
   color: #2e2e2e
 }
 
-a{
-  text-decoration: none;
-}
-
-img{
-  border: 0em solid rbga(0,0,0,0);
-  padding:1em 0em 0em 0em;
-}
-
 .main{
+  box-sizing: border-box;
   background: rgba(46, 46, 46, .5);
-  border-radius: 2em 2em;
+  border-radius: 2em;
   text-align: center;
   width: 40em;
+  padding: 1em;
   margin: auto;
-  padding-bottom: 1em;
 }
 
 @media screen and (max-width: 41em) {
-  div.main {
+  .main {
     width: 100%;
   }
 }
 
+img.pfp {
+  width:12em;
+  padding: .5em;
+}
+
 .button{
   background: #ff6319;
-  border-radius: .5em .5em;
+  border-radius: .5em;
   padding: .5em;
   text-align: center;
   width: 80%;
@@ -64,15 +61,14 @@ img{
   color: #ff6319;
   font-weight: 500;
   font-family: "Josefin Sans", "Trebuchet", sans-serif;
-  margin: 0;
-  margin-top: .5em;
+  margin: auto;
 }
 
 .subname {
   color: #ff6319;
   font-weight: 500;
   font-family: "Josefin Sans", "Trebuchet", sans-serif;
-  width: 20em;
+  width: 80%;
   margin: auto;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
